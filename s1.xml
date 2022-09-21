@@ -1,0 +1,65 @@
+<?sml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE MusicLibrary [ 
+<!ELEMENT MusicLibrary (Title,Artist,Country,Price,Year)> 
+<!ELEMENT Title (#PCDATA)> 
+<!ELEMENT Artist (#PCDATA)> 
+<!ELEMENT Country (#PCDATA)> 
+<!ELEMENT Price (#PCDATA)> 
+<!ELEMENT Year (#PCDATA)> 
+<!ENTITY n “nothing”>
+<!ENTITY address “15 Downing St Floor 1”>
+<!ENTITY city “Karachi”>
+]>
+
+<Session_1>
+
+
+
+<FlowerPlanet> 
+<flowerName>Flower</flowerName> 
+<Price>$17</Price> 
+<Description>Red</Description> 
+<Number>20</Number> 
+</FlowerPlanet>
+
+
+<MusicLibrary> 
+<Title>music</Title> 
+<Artist>Someone</Artist> 
+<Country>Australia</Country> 
+<Price>$30</Price> 
+<Year>2022</Year>
+</MusicLibrary>
+
+
+<Book> 
+<Name>Good XML</Name>
+<Cost>$20</Cost>
+</Book>
+
+
+<StName NickName='Mike'> 
+<First>John</First>
+<!--John is yet to pay the term fees--> 
+<Last>white</Last> 
+<Semester>Final</Semester>
+</StName>
+
+
+<Letter>
+<To>&quot; bob &quot;</To>
+<Address>&address;</Address>
+<City>&city;</City>
+<Body>
+It's a Letter &gt;
+</Body>
+<From>john</From>
+</Letter>
+
+
+<Player gender=”male”>
+<FirstName>john</FirstName>
+<LastName>smith</LastName>
+</Player>
+
+</Session_1>

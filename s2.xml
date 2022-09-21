@@ -1,0 +1,35 @@
+<?sml version="1.0" encoding="UTF-8" ?>
+
+<Session_2>
+
+
+<S:Student xmlns:S='#'>
+<S:First>wick</S:First>
+<S:Last>Smith</S:Last>
+<S:Title>Student</S:Title>
+</S:Student>
+
+
+<Catalog xmlns:Book = '#'>
+<Book:Booklist>
+<Book:Title Book:Type = “Fantasy”>Morning</Book:Title>
+<Book:Price>$20</Book:Price>
+</Book:Booklist>
+</Catalog>
+
+
+<Catalog xmlns = '#'>
+<Book>
+<Title Type = “Fantasy”>Morning</Title>
+<Price>$13</Price>
+</Book>
+<Book>
+<Title Type = “Fantasy”>Morning</Title>
+<Price xmlns = '#'>$23</Price>
+<Title Type = “Fantasy”>Morning</Title>
+<Price>$13</Price>
+</Book>
+</Catalog>
+
+
+</Session_2>
