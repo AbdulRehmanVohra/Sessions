@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE session_3 [
+<!ELEMENT session_3 (Mail, Mobile) >
+<!ELEMENT Mail (To, From, Date, Time, Cc, Bcc, Subject, Message, Signature)>
+<!ELEMENT To (#PCDATA)>
+<!ELEMENT From (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Time (#PCDATA)>
+<!ELEMENT Cc (#PCDATA)>
+<!ELEMENT Bcc (#PCDATA)>
+<!ELEMENT Subject (#PCDATA)>
+<!ELEMENT Message (#PCDATA)>
+<!ELEMENT Signature (#PCDATA)>
+<!ELEMENT Mobile (Company, Model, Price, Accessories)> 
+<!ELEMENT Company (#PCDATA)> 
+<!ELEMENT Model (#PCDATA)> 
+<!ELEMENT Price (#PCDATA)> 
+<!ELEMENT Accessories (#PCDATA)> 
+<!ATTLIST Model Type CDATA 'Camera'> 
+<!ENTITY HP 'Head Phones'> 
+<!ENTITY CH 'Charger'> 
+<!ENTITY SK 'Starters Kit'>
+]>
+
+<session_3>
+
+<Mail>
+<To>john@xyz.com </To>
+<From> henna@xyz.com </From>
+<Date> 5th Feb 2000 </Date>
+<Time> 03:00 am </Time>
+<Cc> </Cc>
+<Bcc> </Bcc>
+<Subject> Meeting at 1:30am </Subject>
+<Message> some massage </Message>
+<Signature> </Signature>
+</Mail>
+
+
+<Mobile>
+<Company> Nokia </Company>
+<Model Type='Camera'> 6600 </Model>
+<Price> 5000 </Price>
+<Accessories> &HP;, &CH; and &SK; </Accessories>
+</Mobile>
+
+</session_3>
