@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session_4>
+<Book>
+<Title>Paradise</Title>
+<Author>David White</Author>
+<Theme>Philosophy</Theme>
+<Publisher>xyz</Publisher>
+<ISBN>13</ISBN>
+<Price>$567</Price>
+<Edition>June 2006</Edition>
+</Book>
+
+<program>
+<comments>
+Simple java program
+</comments>
+<code>
+public static void main(String[] args)
+System.out.println("Hello World!"); // Display the
+string.
+</code>
+</program>
+
+
+<book_another>
+<bookname>code</bookname>
+<no_pages>90</no_pages>
+</book_another>
+
+</session_4>
+
